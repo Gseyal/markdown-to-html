@@ -1,29 +1,8 @@
-# Markdown to HTML Converter
+# Markdown to HTML Converter with Tic Tac Toe Game
 
-This is a simple, single-file web application that converts a Markdown file (`input.md`) into HTML and renders it directly in the browser. It's built with modern web technologies, including:
+This project provides a simple web page that converts Markdown content from `input.md` into HTML and displays it. Additionally, it features a playable Tic Tac Toe game.
 
-- **Tailwind CSS**: For a responsive and modern design.
-- **Marked.js**: A fast Markdown parser and compiler written in JavaScript.
-
-## Features
-
-- Converts `input.md` to HTML dynamically.
-- Renders the HTML output within the page.
-- Responsive design for various screen sizes.
-
-## Setup and Usage
-
-To use this application, follow these simple steps:
-
-1.  Ensure you have `index.html` and `input.md` (the Markdown file you wish to convert) in the same directory.
-2.  Open `index.html` in your web browser.
-
-The application will automatically fetch `input.md`, convert its content to HTML, and display it on the page.
-
-## File Structure
-
-```
-.
-├── index.html       // The main application file
-└── input.md         // The Markdown content to be rendered
-```
+## How to Use
+1. Save your Markdown content in a file named `input.md` in the same directory as `index.html`.
+2. Open `index.html` in your web browser.
+3. The Markdown content will be rendered, and you can play the Tic Tac Toe game below it.
